@@ -21,11 +21,11 @@ If the miner crashes we want the docker service to restart it.
 This image does not need rw access.
 If there are bug/exploits in the pool/software you are a little more protected.
 
-- `-m 100M`
+`-m 100M`
 
 Restricts memory usage to 100MB.
 
-- `-c 512`
+`-c 512`
 
 By default XMRig will use <= half of your cores.
 Setting a relevant share count will protect you from a runaway process locking your system.
