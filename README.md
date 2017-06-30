@@ -31,7 +31,9 @@ By default XMRig will use <= half of your cores.
 Setting a relevant share count will protect you from a runaway process locking your system.
 
 ## XMRig Arguments
-All standard XMRig arguments are supported,. Use `--help` to list them.
+`--help`
+
+All standard XMRig arguments are supported, using `--help` will list all of them.
 ```bash
 # docker run bitnn/alpine-xmrig --help
 ```
