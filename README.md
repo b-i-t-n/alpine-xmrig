@@ -8,8 +8,8 @@ I have also configured this image to run the miner as a dedicated  restricted us
 
 # How to use
 ```bash
-# docker run --restart unless-stopped --read-only -m 100M -c 512 bitnn/alpine-xmrig -o POOL -b BACKUP_POOL -u WALLET -p PASSWORD
-# docker run --restart unless-stopped --read-only -m 100M -c 512 bitnn/alpine-xmrig -o xmr-usa.dwarfpool.com:8005 -b xmr-eu.dwarfpool.com:8005 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p x
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o POOL01 -o POOL02 -u WALLET -p PASSWORD -k
+# docker run --restart unless-stopped --read-only -m 50M -c 512 bitnn/alpine-xmrig -o xmr-usa.dwarfpool.com:8005 -o xmr-eu.dwarfpool.com:8005 -u 45CJVagd6WwQAQfAkS91EHiTyfVaJn12uM4Su8iz6S2SHZ3QthmFM9BSPHVZY388ASWx8G9Wbz4BA24RQZUpGczb35fnnJz -p x -k
 ```
 ## Docker Arguments
 `--restart unless-stopped`
@@ -21,7 +21,7 @@ If the miner crashes we want the docker service to restart it.
 This image does not need rw access.
 If there are bug/exploits in the pool/software you are a little more protected.
 
-`-m 100M`
+`-m 50M`
 
 Restricts memory usage to 100MB.
 
