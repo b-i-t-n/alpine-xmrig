@@ -23,7 +23,7 @@ If there are bug/exploits in the pool/software you are a little more protected.
 
 `-m 50M`
 
-Restricts memory usage to 100MB.
+Restricts memory usage to 50MB.
 
 `-c 512`
 
