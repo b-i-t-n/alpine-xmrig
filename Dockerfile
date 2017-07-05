@@ -6,6 +6,7 @@ RUN   apk --no-cache upgrade && \
         curl-dev \
         git \
         cmake \
+        libuv-dev \
         build-base && \
       git clone https://github.com/xmrig/xmrig && \
       cd xmrig && \
