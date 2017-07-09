@@ -3,7 +3,7 @@
 
 The goal of this project is to quickly enable you to mine Monero without the hassle of knowing how to install or secure your mining software. 
 
-Using an [Alpine Linux](https://www.alpinelinux.org/) container you get a very lightweight image ~13MB and the benefit of Alpine Linux's security model.
+Using an [Alpine Linux](https://www.alpinelinux.org/) container you get a very lightweight image ~4MB and the benefit of Alpine Linux's security model.
 I have also configured this image to run the miner as a dedicated  restricted user.
 
 # How to use
